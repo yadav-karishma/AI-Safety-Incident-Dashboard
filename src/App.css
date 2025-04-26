@@ -407,3 +407,60 @@ select:focus {
   margin-right: 0.25rem;
   opacity: 0.7;
 }
+
+.incident-form input[type="text"],
+.incident-form textarea,
+.incident-form select {
+  padding: 0.9rem 1.25rem;
+  border-radius: 12px;
+  border: 1px solid #e2e8f0;
+  font-size: 1rem;
+  width: 100%;
+  background-color: #f8fafc;
+  height: 52px; 
+  box-sizing: border-box;
+}
+
+.incident-form textarea {
+  min-height: 140px; 
+  resize: vertical;
+  line-height: 1.6;
+}
+
+
+.incident-form button[type="submit"] {
+  background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+  color: white;
+  padding: 0.9rem 1.25rem;
+  height: 52px;
+  border-radius: 12px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  width: 100%;
+  letter-spacing: 0.025em;
+  box-shadow: 0 4px 6px rgba(99, 102, 241, 0.15);
+  box-sizing: border-box;
+}
+
+.severity-indicator {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.9rem 1.25rem;
+  height: 52px;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 12px;
+  text-transform: capitalize;
+  letter-spacing: 0.025em;
+  box-sizing: border-box;
+}
+
+.incident-summary button {
+  padding: 0.9rem 1.25rem;
+  height: 52px;
+  font-size: 1rem;
+  border-radius: 12px;
+  box-sizing: border-box;
+}
